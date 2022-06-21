@@ -18,6 +18,6 @@ for p in range(1, 5):
     if sexo in 'Ff' and idade < 20:
         totmulher20 += 1
 media_idade = soma_idade/4
-print('A média de idade do grupo, é de {} anos.'.format(media_idade))
+print('A média de idade do grupo é de {} anos.'.format(media_idade))
 print('O homem mais velho tem {} anos e se chama {}'.format(maior_idade_homem, nome_velho))
 print('O total de mulheres com menos de 20 anos é igual a {}'.format(totmulher20))
